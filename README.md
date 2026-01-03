@@ -20,4 +20,4 @@ npm install
 
 # justify-api
 ## Public URL
-https://justify-api-xxxx.onrender.com
+https://justify-api-63am.onrender.com/
