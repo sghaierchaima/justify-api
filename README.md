@@ -1,3 +1,4 @@
+
 # Justify API (TicTacTrip Test)
 
 REST API in Node.js + TypeScript that justifies a text to 80 characters per line.
@@ -14,5 +15,7 @@ REST API in Node.js + TypeScript that justifies a text to 80 characters per line
 - Node.js 18+ recommended
 
 ## Install
-```bash
+
 npm install
+
+# justify-api
