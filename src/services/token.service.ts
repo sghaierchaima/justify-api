@@ -1,4 +1,3 @@
-// src/services/token.service.ts
 import crypto from "crypto";
 
 const SECRET = process.env.TOKEN_SECRET || "dev-secret-change-me";

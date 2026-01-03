@@ -1,4 +1,3 @@
-// src/routes/justify.route.ts
 import { Router } from "express";
 import { authMiddleware } from "../middleware/auth";
 import { requireTextPlain } from "../middleware/contentTypeTextPlain";
@@ -8,7 +7,7 @@ import { justifyText } from "../services/justify.service";
 
 export const justifyRouter = Router();
 
-// IMPORTANT: pour lire text/plain, configure express.text() dans app.ts
+
 justifyRouter.post("/justify", authMiddleware, requireTextPlain, (req, res) => {
   const token = (req as any).token as string;
   const input = typeof req.body === "string" ? req.body : "";

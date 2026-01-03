@@ -1,4 +1,3 @@
-// src/server.ts
 import { createApp } from "./app";
 
 const app = createApp();

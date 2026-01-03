@@ -1,4 +1,3 @@
-// src/utils/dateKey.ts
 export function dayKey(d = new Date()): string {
   const y = d.getUTCFullYear();
   const m = String(d.getUTCMonth() + 1).padStart(2, "0");

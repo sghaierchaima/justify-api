@@ -1,4 +1,4 @@
-// src/routes/token.route.ts
+
 import { Router } from "express";
 import { generateToken } from "../services/token.service";
 

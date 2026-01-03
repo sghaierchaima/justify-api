@@ -1,4 +1,3 @@
-// src/middleware/contentTypeTextPlain.ts
 import { Request, Response, NextFunction } from "express";
 
 export function requireTextPlain(req: Request, res: Response, next: NextFunction) {
